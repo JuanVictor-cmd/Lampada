@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #252525;
+}
+
+header,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'hammersmith One';
+    height: 30vh;
+}
+
+h1{
+    margin-top: 13rem;
+    color: #fff;
+    font-size: 50px;
+}
+
+button {
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #1670f6;
+    border: 1px solid #fff;
+    
+}
+
+button:hover{
+    background-color: #1055bb;
+    cursor: pointer;
+}
